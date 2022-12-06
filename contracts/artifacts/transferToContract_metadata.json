@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transfer_amount.sol": "transferToContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transfer_amount.sol": {
+			"keccak256": "0x19fc0a976b602bedcaf2893b8a1f36668f90bf51d3a5aa2b9e9169f0a35fc9ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e471c62164e61f1455c547c3b460603360c4a99790cff31064eac7c89ac65bb9",
+				"dweb:/ipfs/Qmc6G8LYNBmfrqBEFBYw9619L6otu2L2ke8qSkQx8Q8VQV"
+			]
+		}
+	},
+	"version": 1
+}

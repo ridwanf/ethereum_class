@@ -1,0 +1,209 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arrAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rekAddress",
+						"type": "address"
+					}
+				],
+				"name": "deleteNasabah",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "findByName",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "rekAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "pekerjaan",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rekAddress",
+						"type": "address"
+					}
+				],
+				"name": "getNasabah",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nama",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "alamat",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "pekerjaan",
+								"type": "string"
+							},
+							{
+								"internalType": "address",
+								"name": "rekAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blokTime",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "blockNumber",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct DataNasabah.Nasabah",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "pekerjaan",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "rekAddress",
+						"type": "address"
+					}
+				],
+				"name": "registerNasabah",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DataNasabah.sol": "DataNasabah"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DataNasabah.sol": {
+			"keccak256": "0xada593f858700f165382890d4b6f1649046b58f59a48ddcce9da419a91ce4c9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2e3641dd7efe2a0b8c718a00ef553ef5b49ee19ead53f3f51b4e610b8b004d99",
+				"dweb:/ipfs/QmUTkgCAPqDstF5gedyT952L5cAMaEcFfdAFKDJUVcZEd7"
+			]
+		}
+	},
+	"version": 1
+}

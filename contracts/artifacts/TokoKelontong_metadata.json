@@ -1,0 +1,201 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "CheckSaldo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_barangId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_jumlahPembelian",
+						"type": "uint256"
+					}
+				],
+				"name": "beliBarang",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "itemID",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "namaBarang",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "hargaBarang",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "jumlahPembelian",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "status",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct TokoKelontong.BarangBelanja",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listEtalase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "namaBarang",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "stokBarang",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "hargaBarang",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "senderAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_namaBarang",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_stokBarang",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_hargaBarang",
+						"type": "uint256"
+					}
+				],
+				"name": "tambahBarang",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokoKelontong.sol": "TokoKelontong"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TokoKelontong.sol": {
+			"keccak256": "0x6abf2c3f0b471f5b09caaf68ff6126c80a35ce3eb899d4ef20c69750c23ead0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://96f5c59073cb899bc739688f53ba21de8aaee72af7fffb0ddbeb0cbe243a3e41",
+				"dweb:/ipfs/QmbAvCpstiaNYA1Rdsn6e9o1maHrAV9yPAaYatzCWCgpbP"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x60b0215121bf25612a6739fb2f1ec35f31ee82e4a8216c032c8243d904ab3aa9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6e29880d33dd479bb046ba306993d26ccb779a4b1d94a046cb3567f22948bb4d",
+				"dweb:/ipfs/QmfTY1qzPt5C63Wc7y6JqfZr5899NRvXYdCpyLzR5FXQic"
+			]
+		}
+	},
+	"version": 1
+}
